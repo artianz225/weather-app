@@ -10,7 +10,7 @@ export default function displayData(obj) {
           <img id="weather-icon" src="${obj.weatherIcon}" alt="">
       </div>
       <div class="weather-data-container">
-          <h2 class="main-temp">${obj.weatherData.main.temp}<span> °C</span></h2>
+          <h2 class="main-temp">${obj.weatherData.main.temp} °C</h2>
           <p class="weather-main">${obj.weatherData.weather[0].main}</p>
           <p class="date">${new Date()}</p>
       </div>
