@@ -5,18 +5,48 @@
     <link rel="icon" type="image/svg+xml" href="/weather-app/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WeatherApp</title> 
-    <script type="module" crossorigin src="/weather-app/assets/index-56e186c7.js"></script>
-    <link rel="stylesheet" href="/weather-app/assets/index-4c241629.css">
+    <script type="module" crossorigin src="/weather-app/assets/index-71d14c95.js"></script>
+    <link rel="stylesheet" href="/weather-app/assets/index-a7c3f34d.css">
   </head>
   <body>
-    <div id="app">
-        <form>
-            <input id="search" type="text">
-            <button type="submit">Search</button>
-            <div class="card">dsafdsfdsf             
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="https://img.freepik.com/premium-vector/error-404-concept-landing-page-illustration_650635-112.jpg">
+            <p>Oops! Invalid location :/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
             </div>
-        </form>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
     </div>
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
     
   </body>
 </html>
